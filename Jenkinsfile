@@ -1,11 +1,3 @@
-agent {
-  label {
-    label '$label' #remember to record this during your jenkins UI settings
-  }
-} 
-
-example:
-
 pipeline{
   agent {
     label {
